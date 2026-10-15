@@ -1,0 +1,13 @@
+# Login session (cookies) - never commit
+*storage_state*.json
+
+# Scraped chat data - contains names and work logs
+*.csv
+blocked/
+resolved_sessions/
+
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
